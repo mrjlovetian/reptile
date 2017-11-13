@@ -14,8 +14,7 @@ connect = pymysql.Connect(
     user='root',
     password='897011805',
     db='yhj',
-    use_unicode=True,
-    charset='utf8'
+
 )
 
 # 创建游标操作数据库
